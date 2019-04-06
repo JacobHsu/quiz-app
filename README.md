@@ -15,6 +15,12 @@ the reason this is 62.5 present the default font size is most browsers is 16 pix
 
 `translateY(-0.1rem)` we're basically gonna move this thing up just a bit.
 
+
+[Using_data_attributes](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Using_data_attributes) 
+> `data-number`  HTMLCollection  dataset  
+[Array.from()](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/from)  
+
+
 # Extensions
 
 [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - Visual Studio Marketplace 右鍵 Open with Live Server  
