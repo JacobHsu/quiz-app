@@ -20,12 +20,13 @@ the reason this is 62.5 present the default font size is most browsers is 16 pix
 > `data-number`  HTMLCollection  dataset  
 [Array.from()](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/from)  
 
-
+localStorage save mostRecentScore  
 # Extensions
 
 [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - Visual Studio Marketplace 右鍵 Open with Live Server  
 [Emmet Documentation](https://docs.emmet.io/)  
-> `<div id="home" class="flex-center flex-column">` `#home.flex-center.flex-column` tab
+> `<div id="home" class="flex-center flex-column">` `#home.flex-center.flex-column` tab   
+> `input:text` tab == `<input type="text" name="" id="">`
 
 ### References
 
