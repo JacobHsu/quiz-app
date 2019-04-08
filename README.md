@@ -32,3 +32,5 @@ the reason this is 62.5 present the default font size is most browsers is 16 pix
 https://www.learnbuildteach.com/  
 https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript  
 https://yamol.tw/   
+[flexbox-basics](https://cythilya.github.io/2017/04/04/flexbox-basics/)  
+> `flex-direction: column` 主軸為直向。  `space-between`   每個小方塊擁有相同的間隔，但與父容器之間沒有間隔。  
