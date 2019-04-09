@@ -21,6 +21,10 @@ the reason this is 62.5 present the default font size is most browsers is 16 pix
 [Array.from()](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/from)  
 
 localStorage save mostRecentScore  
+
+You need to understand is that local storage only uses key value pairs with the value being s string.  
+So anything that you store in there is gonna be a string.   
+
 # Extensions
 
 [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - Visual Studio Marketplace 右鍵 Open with Live Server  
