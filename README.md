@@ -1,6 +1,9 @@
 # quiz-app
 
 
+ Fetch Questions from Local JSON File  
+
+
 [CSS 偽元素](https://www.oxxostudio.tw/articles/201706/pseudo-element-1.html)
 
 偽元素使用兩個冒號「::」開頭 (`::before`、`::after`、`::first-line`、`::first-letter`和`::selection`)
@@ -18,7 +21,9 @@ the reason this is 62.5 present the default font size is most browsers is 16 pix
 
 [Using_data_attributes](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Using_data_attributes) 
 > `data-number`  HTMLCollection  dataset  
-[Array.from()](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/from)  
+[Array.from()](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/from) 
+[Using Fetch](https://developer.mozilla.org/zh-TW/docs/Web/API/Fetch_API/Using_Fetch)  
+chrome-devtools [Preserve log](https://developers.google.com/web/tools/chrome-devtools/console/?hl=zh-tw) 保留歷史記錄  > fetch用
 
 localStorage save mostRecentScore  
 
