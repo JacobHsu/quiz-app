@@ -8,7 +8,7 @@ const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 //console.log(JSON.parse(localStorage.getItem("highScores")));
 
 const MAX_HIGH_SCORES = 5;
-console.log(highScores);
+//console.log(highScores);
 finalScore.innerText = mostRecentScore;
 
 username.addEventListener("keyup", () => {

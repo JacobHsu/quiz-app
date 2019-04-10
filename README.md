@@ -2,6 +2,7 @@
 
 
  Fetch Questions from Local JSON File  
+ Fetch API Questions from Open Trivia API  
 
 
 [CSS 偽元素](https://www.oxxostudio.tw/articles/201706/pseudo-element-1.html)
@@ -36,6 +37,20 @@ So anything that you store in there is gonna be a string.
 [Emmet Documentation](https://docs.emmet.io/)  
 > `<div id="home" class="flex-center flex-column">` `#home.flex-center.flex-column` tab   
 > `input:text` tab == `<input type="text" name="" id="">`
+
+## Trivia API
+
+[opentdb](https://opentdb.com/) Free to use, user-contributed trivia question database.  
+The Open Trivia Database provides a completely free JSON API for use in programming projects. Use of this API does not require a API Key, just generate the URL below use it in your own application to retrieve trivia questions.
+
+https://opentdb.com/api_config.php  
+
+Select Category: `General knowledge`  
+Select Difficulty: `Easy`  
+Select Type: `Multiple Choice`  
+Select Encoding: `Default Encoding`  
+
+https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple
 
 ### References
 
