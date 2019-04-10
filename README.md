@@ -2,7 +2,7 @@
 
 
  Fetch Questions from Local JSON File  
- Fetch API Questions from Open Trivia API  
+ Fetch API Questions from [Open Trivia API](https://opentdb.com/api_config.php)  
 
 
 [CSS 偽元素](https://www.oxxostudio.tw/articles/201706/pseudo-element-1.html)
@@ -31,6 +31,8 @@ localStorage save mostRecentScore
 You need to understand is that local storage only uses key value pairs with the value being s string.  
 So anything that you store in there is gonna be a string.   
 
+circle `border-radius: 50%;`  
+
 # Extensions
 
 [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - Visual Studio Marketplace 右鍵 Open with Live Server  
@@ -58,4 +60,6 @@ https://www.learnbuildteach.com/
 https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript  
 https://yamol.tw/   
 [flexbox-basics](https://cythilya.github.io/2017/04/04/flexbox-basics/)  
-> `flex-direction: column` 主軸為直向。  `space-between`   每個小方塊擁有相同的間隔，但與父容器之間沒有間隔。  
+> `flex-direction: column` 主軸為直向。  `space-between`   每個小方塊擁有相同的間隔，但與父容器之間沒有間隔。
+[How TO - CSS Loader](https://www.w3schools.com/howto/howto_css_loader.asp)   
+[CSS @keyframes Rule](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)     
