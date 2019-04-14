@@ -15,13 +15,13 @@ let availableQuesions = [];
 let questions = [];
 //"questions.json"
 fetch(
-  "https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple"
+  "https://opentdb.com/api.php?amount=3&category=9&difficulty=easy&type=multiple"
 )
   .then(res => {
     return res.json();
   })
   .then(loadedQuestions => {
-    console.log(loadedQuestions.results);
+    //console.log(loadedQuestions.results);
     questions = loadedQuestions.results.map(loadedQuestion => {
       const formattedQuestion = {
         question: loadedQuestion.question
@@ -51,7 +51,7 @@ fetch(
 
 //CONSTANTS
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 3;
+const MAX_QUESTIONS = 3; //fetch amount=3
 
 startGame = () => {
   questionCounter = 0;
@@ -73,7 +73,7 @@ getNewQuestion = () => {
 
   progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
   //Update the progress bar
-  //console.log(questionCounter / MAX_QUESTIONS);
+  //console.log(questionCounter, questionCounter / MAX_QUESTIONS);
   progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
   const questionIndex = Math.floor(Math.random() * availableQuesions.length);
@@ -86,12 +86,12 @@ getNewQuestion = () => {
   });
 
   availableQuesions.splice(questionIndex, 1); //remove the questionView from availableQuesions
-  console.log(
-    "questionIndex:",
-    questionIndex,
-    "availableQuesions:",
-    availableQuesions
-  );
+  // console.log(
+  //   "questionIndex:",
+  //   questionIndex,
+  //   "availableQuesions:",
+  //   availableQuesions
+  // );
   acceptingAnswers = true;
 };
 
@@ -104,13 +104,13 @@ choices.forEach(choice => {
     const selectedAnswer = selectedChoice.dataset["number"]; //string
     const classToApply =
       selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
-    console.log(
-      "selectedAnswer=",
-      selectedAnswer,
-      "answer=",
-      currentQuestion.answer,
-      classToApply
-    );
+    // console.log(
+    //   "selectedAnswer=",
+    //   selectedAnswer,
+    //   "answer=",
+    //   currentQuestion.answer,
+    //   classToApply
+    // );
 
     if (classToApply === "correct") {
       incrementScore(CORRECT_BONUS);
