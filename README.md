@@ -34,6 +34,7 @@ So anything that you store in there is gonna be a string.
 circle `border-radius: 50%;`  
 
 `git push origin gh-pages`  
+` git push --set-upstream origin gh-pages`   
 
 # Extensions
 
