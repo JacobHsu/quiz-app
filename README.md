@@ -33,6 +33,8 @@ So anything that you store in there is gonna be a string.
 
 circle `border-radius: 50%;`  
 
+`git push origin gh-pages`  
+
 # Extensions
 
 [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - Visual Studio Marketplace 右鍵 Open with Live Server  
